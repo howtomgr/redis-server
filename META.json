@@ -1,0 +1,77 @@
+{
+  "category": "databases",
+  "created_date": "2025-09-15T22:48:58.901219",
+  "default_ports": [
+    0,
+    1,
+    2,
+    30,
+    123,
+    1000,
+    6379,
+    6380,
+    6381,
+    7000,
+    16379,
+    22122,
+    26379
+  ],
+  "dependencies": [
+    "libc",
+    "libssl",
+    "(usually",
+    "included",
+    "in"
+  ],
+  "description": "Redis is a free and open-source in-memory data structure store used as database, cache, message broker, and streaming engine. Originally developed by Salvatore Sanfilippo, Redis (REmote DIctionary Server) is known for its performance, simplicity, and versatility. It serves as a FOSS alternative to commercial in-memory solutions like Amazon ElastiCache, Azure Cache for Redis, or Oracle Coherence, offering enterprise-grade features including persistence, replication, clustering, and pub/sub messaging without licensing costs.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/databases/redis-server",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/databases/redis-server",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:58.901247",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "redis-server",
+  "repository_url": "https://github.com/howtomgr/redis-server",
+  "spec_version": "2.0",
+  "subcategory": "databases",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "databases",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "Redis Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/databases/redis-server"
+}
